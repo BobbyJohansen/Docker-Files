@@ -1,0 +1,7 @@
+# Grafana Nginx
+
+## docker command:
+sudo docker run --name docker-nginx -p 8888:8888 -v Nginx/GrafanaNginx/nginx.conf:/etc/nginx/conf.d/default.conf -d nginx
+
+## grafana
+grafana.ini has some small changes to accept the nginx proxy

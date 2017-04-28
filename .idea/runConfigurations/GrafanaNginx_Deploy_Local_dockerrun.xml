@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GrafanaNginx-Deploy-Local-dockerrun" type="docker-deploy" factoryName="Docker Deployment" folderName="GrafanaNginx" server-name="LocalDocker">
+    <deployment type="docker-image">
+      <settings>
+        <option name="JSONFilePath" value="" />
+        <option name="command" value="docker run --name docker-nginx -p 8888:8888 -v Nginx/GrafanaNginx/nginx.conf:/etc/nginx/conf.d/default.conf -d nginx" />
+        <option name="containerName" value="grafananginx" />
+        <option name="entrypoint" value="" />
+        <option name="imageTag" value="nginx:latest" />
+        <option name="startBrowserSettings">
+          <browser />
+        </option>
+      </settings>
+    </deployment>
+    <method />
+  </configuration>
+</component>

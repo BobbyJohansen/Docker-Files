@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="GrafanaNginx-Deploy-Local" type="docker-deploy" factoryName="Docker Deployment" server-name="LocalDocker">
+  <configuration default="false" name="GrafanaNginx-Deploy-Local-Dockerfile" type="docker-deploy" factoryName="Docker Deployment" folderName="GrafanaNginx" server-name="LocalDocker">
     <deployment type="dockerfile" path="$PROJECT_DIR$/Nginx/GrafanaNginx/Dockerfile">
       <settings>
         <option name="JSONFilePath" value="" />
