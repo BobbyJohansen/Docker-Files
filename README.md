@@ -1,3 +1,4 @@
+![Image](art/white_logo_color_background_small.png)
 # Docker-Files
 A compilation of dockerfiles with friends!
 
